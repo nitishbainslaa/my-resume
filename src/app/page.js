@@ -28,7 +28,7 @@ export default function Home() {
       {/* Main Section */}
       <div className="w-85% mx-auto flex flex-col md:flex-row h-auto md:h-[90vh] pt-24 px-4 md:px-6 gap-10">
         {/* Left Sticky Section */}
-        <div className="md:w-1/2 w-full flex-shrink-0 sticky md:top-10 self-start h-auto md:h-[80vh] p-8 md:p-10 bg-white/10 backdrop-blur-3xl rounded-3xl shadow-2xl flex flex-col justify-center space-y-6 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
+        <div className="md:w-1/3 w-full flex-shrink-0 sticky md:top-10 self-start h-auto md:h-[80vh] p-8 md:p-10 bg-white/10 backdrop-blur-3xl rounded-3xl shadow-2xl flex flex-col justify-center space-y-6 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-pink-400 to-red-400 animate-gradient-text text-center md:text-left">
             Nitish Bainsla
           </h2>
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
 
         {/* Right Scrollable Section */}
-        <div className="md:w-1/2 w-full max-h-auto md:max-h-[90vh] overflow-y-auto pr-0 md:pr-2 space-y-10 scrollbar-hide scroll-smooth">
+        <div className="md:w-2/3 w-full max-h-auto md:max-h-[90vh] overflow-y-auto pr-0 md:pr-2 space-y-10 scrollbar-hide scroll-smooth">
           {/* Hero Image */}
           <div className="flex justify-center md:justify-end mt-10">
             <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full shadow-2xl overflow-hidden animate-float border-4 border-white/20 ring-4 ring-white/20 hover:scale-105 transition-transform duration-500 hover:ring-pink-400/50">
