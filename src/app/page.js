@@ -82,8 +82,11 @@ export default function Home() {
             </div>
           </div>
 
-          {/* About Section */}
-          <div className="bg-white/10 mx-4 sm:mx-6 px-4 sm:px-6 py-6 sm:py-8 rounded-2xl sm:rounded-3xl shadow-2xl border border-white/20 hover:scale-105 transition-transform duration-300 animate-fadeIn">
+
+          {/* About Experience / Projects / Contact */}
+          <div className="space-y-6 mx-6">
+            {/* About Section */}
+          <div className="bg-white/10 px-4 sm:px-6 py-6 sm:py-8 rounded-2xl sm:rounded-3xl shadow-2xl border border-white/20 hover:scale-105 transition-transform duration-300 animate-fadeIn">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 text-center md:text-left underline decoration-yellow-400 underline-offset-4">
               About Me
             </h2>
@@ -94,11 +97,8 @@ export default function Home() {
               In my spare time, I&apos;m usually climbing, playing tennis, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.
             </p>
           </div>
-
-          {/* Experience / Projects / Contact */}
-          <div className="space-y-6 mx-6">
             {/* Experience */}
-            <div className="bg-white/10 p-4 sm:p-6 rounded-2xl shadow-inner border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300 animate-fadeIn">
+            <div className="bg-white/10 px-4 sm:px-6 py-6 sm:py-8 rounded-2xl shadow-inner border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300 animate-fadeIn">
               <h3 className="text-xl sm:text-2xl font-bold text-yellow-300 mb-2">Experience</h3>
               <p className="text-white/90 font-medium text-sm sm:text-base">Senior Front-End Engineer — Klaviyo</p>
               <p className="text-white/80 mt-2 leading-relaxed text-sm sm:text-base">Worked on accessible UI components, design systems, and performance optimizations.</p>
