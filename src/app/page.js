@@ -94,7 +94,7 @@ export default function Home() {
           </div>
 
           {/* Experience / Projects / Contact */}
-          <div className="space-y-6 mx-6">
+          <div className="space-y-6 mx-6 underline decoration-yellow-400 underline-offset-4">
             {/* Experience */}
             <div className="bg-white/10 p-4 sm:p-6 rounded-2xl shadow-inner border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300 animate-fadeIn">
               <h3 className="text-xl sm:text-2xl font-bold text-yellow-300 mb-2">Experience</h3>
