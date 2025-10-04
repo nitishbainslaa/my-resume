@@ -83,7 +83,7 @@ export default function Home() {
           </div>
 
           {/* About Section */}
-          <div className="bg-white/10 mx-6 backdrop-blur-3xl sm:p-6 rounded-3xl shadow-2xl border border-white/20 hover:scale-105 transition-transform duration-300 animate-fadeIn">
+          <div className="bg-white/10 space-y-6 mx-6 backdrop-blur-3xl sm:p-6 rounded-3xl shadow-2xl border border-white/20 hover:scale-105 transition-transform duration-300 animate-fadeIn">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 text-center md:text-left underline decoration-yellow-400 underline-offset-4">About Me</h2>
             <p className="text-white text-justify text-sm leading-relaxed">
               I&apos;m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.<br /><br />
