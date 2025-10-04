@@ -83,9 +83,11 @@ export default function Home() {
           </div>
 
           {/* About Section */}
-          <div className="bg-white/10 space-y-6 mx-6 backdrop-blur-3xl sm:p-6 rounded-3xl shadow-2xl border border-white/20 hover:scale-105 transition-transform duration-300 animate-fadeIn">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 text-center md:text-left underline decoration-yellow-400 underline-offset-4">About Me</h2>
-            <p className="text-white text-justify text-sm leading-relaxed">
+          <div className="bg-white/10 mx-4 sm:mx-6 px-4 sm:px-6 py-6 sm:py-8 rounded-2xl sm:rounded-3xl shadow-2xl border border-white/20 hover:scale-105 transition-transform duration-300 animate-fadeIn">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 text-center md:text-left underline decoration-yellow-400 underline-offset-4">
+              About Me
+            </h2>
+            <p className="text-white text-justify text-sm sm:text-base leading-relaxed">
               I&apos;m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.<br /><br />
               Currently, I&apos;m a Senior Front-End Engineer at Klaviyo, specializing in accessibility. I contribute to the creation and maintenance of UI components that power Klaviyo&apos;s frontend, ensuring our platform meets web accessibility standards and best practices to deliver an inclusive user experience.<br /><br />
               In the past, I&apos;ve had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I also released a comprehensive video course a few years ago, guiding learners through building a web app with the Spotify API.<br /><br />
@@ -102,12 +104,36 @@ export default function Home() {
               <p className="text-white/80 mt-2 leading-relaxed text-sm sm:text-base">Worked on accessible UI components, design systems, and performance optimizations.</p>
             </div>
 
-            {/* Projects */}
-            <div className="bg-white/10 sm:p-6 rounded-2xl shadow-inner border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300 animate-fadeIn delay-150">
-              <h3 className="text-xl sm:text-2xl font-bold text-yellow-300 mb-2">Projects</h3>
-              <p className="text-white/90 font-medium text-sm sm:text-base">Project A — Accessible Component Library</p>
-              <p className="text-white/80 mt-2 leading-relaxed text-sm sm:text-base">Designed UI components with accessibility-first approach.</p>
+          {/* Projects Section */}
+          <div className="bg-white/10 px-4 sm:px-6 py-6 sm:py-8 rounded-2xl sm:rounded-3xl shadow-inner border border-white/20 backdrop-blur-md hover:scale-105 transition-transform duration-300 animate-fadeIn delay-150 space-y-4 sm:space-y-6">
+            <h2 className="text-2xl sm:text-3xl font-bold text-yellow-300 mb-2 text-center md:text-left">
+              Projects
+            </h2>
+
+            {/* Project Item 1 */}
+            <div className="bg-white/5 p-4 sm:p-6 rounded-2xl hover:bg-white/10 transition-colors duration-300">
+              <h3 className="text-xl sm:text-2xl font-semibold text-white/90 mb-1">Project A — Accessible Component Library</h3>
+              <p className="text-white/80 text-sm sm:text-base leading-relaxed">
+                Designed UI components with accessibility-first approach, ensuring high usability and compliance with web standards.
+              </p>
             </div>
+
+            {/* Project Item 2 */}
+            <div className="bg-white/5 p-4 sm:p-6 rounded-2xl hover:bg-white/10 transition-colors duration-300">
+              <h3 className="text-xl sm:text-2xl font-semibold text-white/90 mb-1">Project B — E-Commerce Platform</h3>
+              <p className="text-white/80 text-sm sm:text-base leading-relaxed">
+                Developed a fully responsive online store with dynamic product filtering, cart functionality, and smooth animations.
+              </p>
+            </div>
+
+            {/* Project Item 3 */}
+            <div className="bg-white/5 p-4 sm:p-6 rounded-2xl hover:bg-white/10 transition-colors duration-300">
+              <h3 className="text-xl sm:text-2xl font-semibold text-white/90 mb-1">Project C — Portfolio Website</h3>
+              <p className="text-white/80 text-sm sm:text-base leading-relaxed">
+                Built a modern portfolio site with interactive UI components, optimized images, and fast load times for better UX.
+              </p>
+            </div>
+          </div>
 
             {/* Contact */}
             <div className="bg-gradient-to-r from-pink-500 to-yellow-400 p-4 sm:p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 text-white animate-fadeIn delay-300">
