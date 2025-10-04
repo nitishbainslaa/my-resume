@@ -70,7 +70,7 @@ export default function Home() {
         {/* Right Scrollable Section */}
         <div className="md:w-2/3 w-full max-h-auto md:max-h-[90vh] overflow-y-auto pr-0 md:pr-2 space-y-10 scrollbar-hide scroll-smooth">
           {/* Hero Image */}
-          <div className="flex justify-center md:justify-end mt-5">
+          <div className="flex justify-center md:justify-end mt-10">
             <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full shadow-2xl overflow-hidden animate-float border-4 border-white/20 ring-4 ring-white/20 hover:scale-105 transition-transform duration-500 hover:ring-pink-400/50">
               <Image
                 src="/Gemini_Generated_Image_ul0ajcul0ajcul0a.png"
