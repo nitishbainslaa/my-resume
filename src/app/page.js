@@ -30,7 +30,7 @@ export default function Home() {
         {/* Left Sticky Section */}
         <div className="md:w-1/3 w-full flex-shrink-0 sticky md:top-10 self-start h-auto md:h-[80vh] p-8 md:p-10 bg-white/10 backdrop-blur-3xl rounded-3xl shadow-2xl flex flex-col justify-center space-y-6 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-pink-400 to-red-400 animate-gradient-text text-center md:text-left">
-            Nitish Bainsla
+            NITISH BAINSLA
           </h2>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white/90 text-center md:text-left">
             Front End Engineer
